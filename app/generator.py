@@ -5,9 +5,9 @@ from app.prompts import MIN_SCORE, REFUSAL_EMPTY_QUESTION, REFUSAL_NO_CONTEXT
 from app.retriever import Retriever
 
 
-def build_answer(hits: list[dict], min_score: float = MIN_SCORE) -> str:
-    """Формирует ответ только из чанков с score >= min_score."""
-    relevant = [h for h in hits if h["score"] >= min_score]
+def build_answer(hits: list[dict]) -> str:
+    """Формирует ответ только из чанков с score > 0."""
+    relevant = [h for h in hits if h["score"] >= MIN_SCORE]
     if not relevant:
         return REFUSAL_NO_CONTEXT
 
@@ -26,11 +26,6 @@ def format_sources(hits: list[dict]) -> list[dict]:
             "name": hit.get("name", ""),
             "text": hit["text"],
             "score": hit["score"],
-            # Улучшение 5: пробрасываем sub-scores если есть (hybrid)
-            **({
-                "score_tfidf": hit["score_tfidf"],
-                "score_bm25": hit["score_bm25"],
-            } if "score_tfidf" in hit else {}),
         }
         for hit in hits
     ]
@@ -40,7 +35,6 @@ def ask(
     question: str,
     k: int = TOP_K,
     retriever: Retriever | None = None,
-    min_score: float = MIN_SCORE,
 ) -> dict:
     """Вопрос -> ответ и список источников."""
     if not question.strip():
@@ -49,6 +43,6 @@ def ask(
     r = retriever or Retriever()
     hits = r.search(question.strip(), k=k)
     return {
-        "answer": build_answer(hits, min_score=min_score),
+        "answer": build_answer(hits),
         "sources": format_sources(hits),
     }
