@@ -2,48 +2,779 @@
   "datasets": [
     {
       "id": 0,
-      "name": "Взыскание долга — попытки взыскать несуществующий долг (Ability Recovery Services)",
-      "text": "Продукт: взыскание долга. Проблема: попытки взыскать долг, который не должен быть оплачен. Подпроблема: долг уже был погашен. Компания: Ability Recovery Services, LLC. Штат: Джорджия.\n\nТекст жалобы потребителя:\nНачиная с XX/XX/XXXX, я стала получать звонки от коллекторского агентства Ability Recovery Solutions по поводу медицинского счёта, который, по их словам, не был оплачен. Я объяснила, что с XX/XX/XXXX одобрена на SSI и Medicaid; Medicaid задним числом действует с XX/XX/XXXX. Мне посоветовали обратиться в больницы, чтобы они отозвали счета из коллекторов и подали их в Medicaid. Больница подтвердила, что счета отозваны, оплачены и закрыты. Тем не менее звонки продолжились: когда я говорила, что долг погашен, операторы грубили и требовали доказательства. При попытках обсудить ситуацию они угрожали по телефону. Больница заявила, что взыскание неправомерно и пыталась связаться с коллекторами, но те отказались убрать запись из кредитной истории, продолжали звонить по несколько раз в день, угрожали судом и испортили мой кредитный рейтинг. По запросу они так и не прислали документов, подтверждающих долг."
+      "name": "Tyrannosaurus",
+      "text": "Tyrannosaurus is a Large theropod dinosaur that lived during the Late Cretaceous period (68-66 million years ago). Diet: Carnivore. Found in: USA, Canada. Length: 12.0 meters. Taxonomy: Theropoda > Tyrannosauridae. Named by Henry Fairfield Osborn in 1905. One of the largest land predators ever. Famous for its tiny arms and massive skull with bone-crushing jaws.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
     },
     {
       "id": 1,
-      "name": "Студенческий кредит — трудности с погашением (NRA Group)",
-      "text": "Продукт: студенческий кредит. Проблема: трудности с погашением займа. Подпроблема: нет гибких вариантов погашения. Компания: NRA Group, LLC. Штат: Невада.\n\nТекст жалобы потребителя:\nЯ выполняла требования программы «ability to benefit» в точности по закону. Они намеренно исказили результаты проверки, чтобы продолжать удерживать деньги из моей зарплаты. Я как раз тот человек, для которого эта программа предназначена, но закон проигнорировали и продолжают разорять меня финансово. Нужна проверка Министерства образования и коллекторского агентства, которое они используют. Если рассмотрите моё дело, увидите, что я соответствовала требованиям. Прошу проверить мою жалобу и действия тех, кто мошенничеством отказал в удовлетворении заявки."
+      "name": "Triceratops",
+      "text": "Triceratops is a Ceratopsid dinosaur that lived during the Late Cretaceous period (68-66 million years ago). Diet: Herbivore. Found in: USA, Canada. Length: 9.0 meters. Taxonomy: Ornithischia > Ceratopsidae. Named by Othniel Charles Marsh in 1889. Three-horned dinosaur with a large bony frill. Likely used horns for defense against predators like T. rex.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
     },
     {
       "id": 2,
-      "name": "Ипотека — закрытие ипотечной сделки (Citibank)",
-      "text": "Продукт: ипотека. Проблема: закрытие ипотечной сделки. Компания: CITIBANK, N.A. Штат: Невада.\n\nТекст жалобы потребителя:\nМне устно обещали списать пункты (points), чтобы получить заявленную ставку от команды ипотечных агентов Citibank. За неделю до закрытия сделки сказали, что скидки уже применены и осталось два варианта: 1) платить более высокий процент или 2) использовать пункты для снижения ставки до первоначальной котировки (лок на 60 дней). Я выбрала второй вариант и заплатила около {$1500.00}, чтобы зафиксировать низкую ставку, хотя агент обещал, что пункты спишут. Кредит с тех пор передан другому кредитору (XXXX)."
+      "name": "Velociraptor",
+      "text": "Velociraptor is a Small dromaeosaurid theropod dinosaur that lived during the Late Cretaceous period (75-71 million years ago). Diet: Carnivore. Found in: Mongolia, China. Length: 2.0 meters. Taxonomy: Theropoda > Dromaeosauridae. Named by Henry Fairfield Osborn in 1924. Swift pack hunter, covered in feathers. Much smaller than depicted in movies, about the size of a turkey.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia, China"
     },
     {
       "id": 3,
-      "name": "Кредитная или предоплаченная карта — комиссии и проценты (AAFES)",
-      "text": "Продукт: кредитная или предоплаченная карта. Проблема: комиссии или проценты. Подпроблема: проблема с комиссиями. Компания: Army and Air Force Exchange Service. Штат: Техас.\n\nТекст жалобы потребителя:\nРечь о кредитном счёте XXXX XXXX XXXX, которым управляет Army and Air Force Exchange Service (AAFES). После 21 года службы я вышел в отставку, не нашёл работу и отстал от платежей в XXXX году. AAFES начала удерживать долг из моей военной пенсии. Удержания были в XXXX и XXXX, затем прекратились. В XX/XX/XXXX пришло письмо о возобновлении удержаний; указана сумма задолженности {$11000.00}. Я переписывался с AAFES: долг, по моим данным, погашен, но удержания из пенсии и налоговых возвратов продолжались. Меня направили к коллектору XXXX, но письменно не уведомили о привлечении агентства. Неясно, какую роль играет XXXX, если удержания идут через AAFES. Ответ на запрос к XXXX получил только после двух обращений (более 30 дней). В XX/XX/XXXX отправил письмо XXXX с копией AAFES: приложил документы пенсионного агента и выписки, показав, что долг погашен с переплатой. Просил прекратить удержания, вернуть переплату и подтвердить полномочия XXXX. Ответа в течение 30 рабочих дней не было. Прошу помощи до обращения в FTC: пусть AAFES рассмотрит письмо от XX/XX/XXXX, прекратит удержания и возвратит переплату."
+      "name": "Brachiosaurus",
+      "text": "Brachiosaurus is a Sauropod dinosaur that lived during the Late Jurassic period (154-153 million years ago). Diet: Herbivore. Found in: USA, Tanzania. Length: 26.0 meters. Taxonomy: Sauropoda > Brachiosauridae. Named by Elmer S. Riggs in 1903. Enormous long-necked dinosaur with front legs longer than hind legs, allowing it to reach high vegetation.",
+      "diet": "Herbivore",
+      "period": "Late Jurassic",
+      "lived_in": "USA, Tanzania"
     },
     {
       "id": 4,
-      "name": "Расчётный или сберегательный счёт — закрытие счёта (Wells Fargo)",
-      "text": "Продукт: расчётный или сберегательный счёт. Проблема: закрытие счёта. Подпроблема: не удаётся закрыть счёт. Компания: WELLS FARGO & COMPANY. Штат: Северная Каролина.\n\nТекст жалобы потребителя:\nXX/XX/XXXX получил письмо от господина XXXX XXXX из исполнительного офиса Wells Fargo Merchant Services о том, что мой торговый счёт (окончание XXXX) закрыт. Ответ относился к прежней жалобе в CFPB № XXXX, поданной в XX/XX/XXXX. С тех пор я получаю письма, что счёт всё ещё открыт; последнее датировано XX/XX/XXXX."
+      "name": "Stegosaurus",
+      "text": "Stegosaurus is a Stegosaurid dinosaur that lived during the Late Jurassic period (155-150 million years ago). Diet: Herbivore. Found in: USA, Portugal. Length: 9.0 meters. Taxonomy: Ornithischia > Stegosauridae. Named by Othniel Charles Marsh in 1877. Recognizable by two rows of large bony plates along the back and spiked tail used for defense.",
+      "diet": "Herbivore",
+      "period": "Late Jurassic",
+      "lived_in": "USA, Portugal"
     },
     {
       "id": 5,
-      "name": "Денежный перевод — прочая проблема с услугой (Xoom)",
-      "text": "Продукт: денежный перевод, виртуальная валюта или денежный сервис. Проблема: прочая проблема с услугой. Компания: XOOM CORPORATION. Штат: Иллинойс.\n\nТекст жалобы потребителя:\nРанее я подал жалобу в CFPB: компания ответила, что предотвратила отправку данных чужого клиента мне. Однако XX/XX/XXXX снова получил письмо, что их клиент получил перевод от кого-то, и снова прислали все детали транзакции по счёту, который мне не принадлежит (транзакция XXXX). Xoom должна немедленно удалить мой email из систем. Адрес не зарегистрирован на XXXX XXXX XXXX — получать детали чужих переводов нельзя, это нарушение конфиденциальности. Это уже третья такая транзакция; ранее были XXXX от XX/XX/2019 и XXXX от XX/XX/2019."
+      "name": "Diplodocus",
+      "text": "Diplodocus is a Sauropod dinosaur that lived during the Late Jurassic period (154-152 million years ago). Diet: Herbivore. Found in: USA. Length: 27.0 meters. Taxonomy: Sauropoda > Diplodocidae. Named by Othniel Charles Marsh in 1878. One of the longest dinosaurs, with an extremely long neck and whip-like tail.",
+      "diet": "Herbivore",
+      "period": "Late Jurassic",
+      "lived_in": "USA"
     },
     {
       "id": 6,
-      "name": "Краткосрочный займ — неверная информация в отчёте (Local Management)",
-      "text": "Продукт: краткосрочный, залоговый или персональный займ. Проблема: неверная информация в отчёте. Подпроблема: неверный статус счёта. Компания: Local Management, LLC. Штат: Южная Каролина.\n\nТекст жалобы потребителя:\nXX/XX/2018 я внес первый платёж XXXX; представитель заверил, что просрочки в кредитной истории не будет, если уложиться в XXXX дней. Платёж XXXX от XX/XX/XXXX отображён, но статус показан как просрочка 30–60 дней. Руководство ответило через неделю; XXXX был груб и сказал, что при своевременной оплате проблем не было. Он потребовал документы, которые я не мог предоставить, продолжал хамить — я заявила о жалобе. Прошу убрать негативные отметки Local Finance; готова полностью погасить займ в пятницу. Я клиент много лет и никогда не опаздывала более чем на 30 дней. Local Finance — компания XXXX XXXX XXXX XXXX, XXXX, SC XXXX XXXX."
+      "name": "Ankylosaurus",
+      "text": "Ankylosaurus is a Ankylosaurid dinosaur that lived during the Late Cretaceous period (68-66 million years ago). Diet: Herbivore. Found in: USA, Canada. Length: 6.25 meters. Taxonomy: Ornithischia > Ankylosauridae. Named by Barnum Brown in 1908. Heavily armored dinosaur with a massive bony club at the end of its tail used to break predator bones.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
     },
     {
       "id": 7,
-      "name": "Кредитная карта — просроченный счёт (Capital One)",
-      "text": "Продукт: кредитная карта. Проблема: просроченный счёт. Компания: CAPITAL ONE FINANCIAL CORPORATION. Штат: Джорджия.\n\nТекст жалобы потребителя:\nМногократно оспаривала счёт Capital One; по сей день они сообщают о нём дольше 7 лет с даты первой просрочки. По телефону сказали, что будут сообщать о нём 10 лет. Бюро кредитных историй указывают на 7 лет. Запрашивала историю платежей — не предоставили. Счёт открыт в XXXX, просрочки с XXXX XXXX (данные от коллекторского отдела). Прошу удалить запись из Experian по правилам FCRA: в большинстве случаев негативная информация старше семи лет не должна сообщаться."
+      "name": "Spinosaurus",
+      "text": "Spinosaurus is a Large theropod dinosaur that lived during the Cretaceous period (99-93 million years ago). Diet: Piscivore. Found in: Egypt, Morocco. Length: 15.0 meters. Taxonomy: Theropoda > Spinosauridae. Named by Ernst Stromer in 1915. Likely the largest carnivorous dinosaur. Had a large sail on its back and was adapted for aquatic hunting.",
+      "diet": "Piscivore",
+      "period": "Cretaceous",
+      "lived_in": "Egypt, Morocco"
     },
     {
       "id": 8,
-      "name": "Банковский счёт — открытие, закрытие и управление (U.S. Bank)",
-      "text": "Продукт: банковский счёт или услуга. Проблема: открытие, закрытие или управление счётом. Компания: U.S. BANCORP. Штат: Иллинойс.\n\nТекст жалобы потребителя:\nДепозитные счета (CD и money market) открыты одним владельцем — XXXX XXXX; XXXX XXXX закрыт. Счета перешли к XXXX XXXX, затем в U.S. Bank. За это время к счёту без моего ведома и согласия добавили второе имя. U.S. Bank отказывается исправить ошибку и предоставить карточки с подписями. Более шести месяцев пытаемся добиться ответа: обращались в executive office, в отдел мошенничества, к senior banker (XXXX XXXX XXXX). Одна сотрудница направила в филиал XXXX XXXX к менеджеру XXXX — я там никогда не обслуживался. Звонки и сообщения без ответа. Помощник менеджера филиала взяла мои данные, обещала перезвонить — не перезвонила. Ссылалась на «корпоративный офис» и письмо — ответа не было. С каждым звонком становилась враждебнее и заявила, что не обязана ничего сообщать письменно. В другом филиале менеджер обещала связаться на следующей неделе — не связалась; потом через сотрудника сообщили, что информации нет. Везде указывала на юридическую проблему: я НИКОГДА не уполномочивала другого человека на мои счета. Банк не признаёт ошибку, но разгласил неверные сведения, из-за чего возник судебный спор (XXXX)."
+      "name": "Allosaurus",
+      "text": "Allosaurus is a Large theropod dinosaur that lived during the Late Jurassic period (155-150 million years ago). Diet: Carnivore. Found in: USA, Portugal, Tanzania. Length: 9.7 meters. Taxonomy: Theropoda > Allosauridae. Named by Othniel Charles Marsh in 1877. Apex predator of the Jurassic, with sharp serrated teeth and three-fingered clawed hands.",
+      "diet": "Carnivore",
+      "period": "Late Jurassic",
+      "lived_in": "USA, Portugal, Tanzania"
+    },
+    {
+      "id": 9,
+      "name": "Parasaurolophus",
+      "text": "Parasaurolophus is a Hadrosaur dinosaur that lived during the Late Cretaceous period (76-73 million years ago). Diet: Herbivore. Found in: USA, Canada. Length: 9.5 meters. Taxonomy: Ornithischia > Hadrosauridae. Named by William Parks in 1922. Duck-billed dinosaur with a distinctive hollow crest used to produce resonating calls for communication.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
+    },
+    {
+      "id": 10,
+      "name": "Iguanodon",
+      "text": "Iguanodon is a Iguanodontid dinosaur that lived during the Early Cretaceous period (126-113 million years ago). Diet: Herbivore. Found in: Belgium, UK, Germany. Length: 10.0 meters. Taxonomy: Ornithischia > Iguanodontidae. Named by Gideon Mantell in 1825. One of the first dinosaurs to be scientifically described. Had a distinctive spiked thumb used for defense.",
+      "diet": "Herbivore",
+      "period": "Early Cretaceous",
+      "lived_in": "Belgium, UK, Germany"
+    },
+    {
+      "id": 11,
+      "name": "Pteranodon",
+      "text": "Pteranodon is a Pterosaur dinosaur that lived during the Late Cretaceous period (86-84 million years ago). Diet: Piscivore. Found in: USA. Length: 1.8 meters. Taxonomy: Pterosauria > Pteranodontidae. Named by Othniel Charles Marsh in 1876. Flying reptile, not a true dinosaur, with a wingspan up to 7 meters and a toothless beak.",
+      "diet": "Piscivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 12,
+      "name": "Pachycephalosaurus",
+      "text": "Pachycephalosaurus is a Pachycephalosaurid dinosaur that lived during the Late Cretaceous period (70-66 million years ago). Diet: Omnivore. Found in: USA. Length: 4.5 meters. Taxonomy: Ornithischia > Pachycephalosauridae. Named by Barnum Brown & Eric Mowbray Schlaikjer in 1943. Thick-domed skull used in head-butting contests for dominance. Bipedal herbivore of the late Cretaceous.",
+      "diet": "Omnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 13,
+      "name": "Carnotaurus",
+      "text": "Carnotaurus is a Abelisaurid theropod dinosaur that lived during the Late Cretaceous period (72-69 million years ago). Diet: Carnivore. Found in: Argentina. Length: 7.5 meters. Taxonomy: Theropoda > Abelisauridae. Named by José Bonaparte in 1985. Distinctive for its two bull-like horns above the eyes. One of the fastest large predators.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 14,
+      "name": "Giganotosaurus",
+      "text": "Giganotosaurus is a Large theropod dinosaur that lived during the Late Cretaceous period (99-97 million years ago). Diet: Carnivore. Found in: Argentina. Length: 12.5 meters. Taxonomy: Theropoda > Carcharodontosauridae. Named by Rodolfo Coria & Leonardo Salgado in 1995. One of the largest carnivorous dinosaurs, comparable in size to T. rex but lived 30 million years earlier.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 15,
+      "name": "Argentinosaurus",
+      "text": "Argentinosaurus is a Titanosaur sauropod dinosaur that lived during the Late Cretaceous period (96-92 million years ago). Diet: Herbivore. Found in: Argentina. Length: 35.0 meters. Taxonomy: Sauropoda > Titanosauria. Named by José Bonaparte & Rodolfo Coria in 1993. Possibly the heaviest dinosaur ever, estimated at 70-80 tonnes, found in Patagonia, Argentina.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 16,
+      "name": "Deinonychus",
+      "text": "Deinonychus is a Dromaeosaurid theropod dinosaur that lived during the Early Cretaceous period (115-108 million years ago). Diet: Carnivore. Found in: USA. Length: 3.4 meters. Taxonomy: Theropoda > Dromaeosauridae. Named by John Ostrom in 1969. Pack hunter with an enlarged sickle-shaped claw on each foot. Discovery revolutionized dinosaur science.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 17,
+      "name": "Compsognathus",
+      "text": "Compsognathus is a Small theropod dinosaur that lived during the Late Jurassic period (150-145 million years ago). Diet: Carnivore. Found in: Germany, France. Length: 1.0 meters. Taxonomy: Theropoda > Compsognathidae. Named by Johann A. Wagner in 1859. One of the smallest dinosaurs known, roughly the size of a chicken. Swift two-legged predator.",
+      "diet": "Carnivore",
+      "period": "Late Jurassic",
+      "lived_in": "Germany, France"
+    },
+    {
+      "id": 18,
+      "name": "Maiasaura",
+      "text": "Maiasaura is a Hadrosaur dinosaur that lived during the Late Cretaceous period (76-75 million years ago). Diet: Herbivore. Found in: USA. Length: 9.0 meters. Taxonomy: Ornithischia > Hadrosauridae. Named by Jack Horner & Robert Makela in 1979. Good mother lizard - first dinosaur found with evidence of parental care, nesting in colonies.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 19,
+      "name": "Oviraptor",
+      "text": "Oviraptor is a Oviraptorid theropod dinosaur that lived during the Late Cretaceous period (75-71 million years ago). Diet: Omnivore. Found in: Mongolia. Length: 1.8 meters. Taxonomy: Theropoda > Oviraptoridae. Named by Henry Fairfield Osborn in 1924. Egg thief - though initially accused of stealing eggs, later found to be brooding its own nest.",
+      "diet": "Omnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia"
+    },
+    {
+      "id": 20,
+      "name": "Protoceratops",
+      "text": "Protoceratops is a Ceratopsid dinosaur that lived during the Late Cretaceous period (75-71 million years ago). Diet: Herbivore. Found in: Mongolia. Length: 1.8 meters. Taxonomy: Ornithischia > Protoceratopsidae. Named by Walter Granger & William K. Gregory in 1923. Small frilled dinosaur from the Gobi Desert. Often found in death battles with Velociraptor fossils.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia"
+    },
+    {
+      "id": 21,
+      "name": "Hadrosaurus",
+      "text": "Hadrosaurus is a Hadrosaur dinosaur that lived during the Late Cretaceous period (80-78 million years ago). Diet: Herbivore. Found in: USA. Length: 8.0 meters. Taxonomy: Ornithischia > Hadrosauridae. Named by Joseph Leidy in 1858. First nearly complete dinosaur skeleton found in North America. Gave name to the duck-billed hadrosaur family.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 22,
+      "name": "Ceratosaurus",
+      "text": "Ceratosaurus is a Ceratosaurid theropod dinosaur that lived during the Late Jurassic period (153-148 million years ago). Diet: Carnivore. Found in: USA, Tanzania, Portugal. Length: 6.0 meters. Taxonomy: Theropoda > Ceratosauridae. Named by Othniel Charles Marsh in 1884. Large predator with a distinctive horn on its snout and bony spikes along its spine.",
+      "diet": "Carnivore",
+      "period": "Late Jurassic",
+      "lived_in": "USA, Tanzania, Portugal"
+    },
+    {
+      "id": 23,
+      "name": "Plateosaurus",
+      "text": "Plateosaurus is a Prosauropod dinosaur that lived during the Late Triassic period (214-204 million years ago). Diet: Herbivore. Found in: Germany, Switzerland, Greenland. Length: 8.0 meters. Taxonomy: Sauropodomorpha > Plateosauridae. Named by Hermann von Meyer in 1837. One of the first large dinosaurs, from the Triassic period. Could walk on two or four legs.",
+      "diet": "Herbivore",
+      "period": "Late Triassic",
+      "lived_in": "Germany, Switzerland, Greenland"
+    },
+    {
+      "id": 24,
+      "name": "Kentrosaurus",
+      "text": "Kentrosaurus is a Stegosaurid dinosaur that lived during the Late Jurassic period (155-152 million years ago). Diet: Herbivore. Found in: Tanzania. Length: 4.5 meters. Taxonomy: Ornithischia > Stegosauridae. Named by Edwin Hennig in 1915. African relative of Stegosaurus with a mix of plates and sharp spikes running along the back and tail.",
+      "diet": "Herbivore",
+      "period": "Late Jurassic",
+      "lived_in": "Tanzania"
+    },
+    {
+      "id": 25,
+      "name": "Therizinosaurus",
+      "text": "Therizinosaurus is a Therizinosaur theropod dinosaur that lived during the Late Cretaceous period (70-68 million years ago). Diet: Herbivore. Found in: Mongolia. Length: 10.0 meters. Taxonomy: Theropoda > Therizinosauridae. Named by Evgeny Maleev in 1954. Had the longest claws of any known animal - up to 1 meter - used to pull down branches to feed.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia"
+    },
+    {
+      "id": 26,
+      "name": "Gallimimus",
+      "text": "Gallimimus is a Ornithomimid theropod dinosaur that lived during the Late Cretaceous period (70-68 million years ago). Diet: Omnivore. Found in: Mongolia. Length: 6.0 meters. Taxonomy: Theropoda > Ornithomimidae. Named by Rinchen Barsbold, Osmólska & Roniewicz in 1972. Resembled an ostrich, one of the fastest dinosaurs. Toothless beak used to catch small animals and plants.",
+      "diet": "Omnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia"
+    },
+    {
+      "id": 27,
+      "name": "Pachyrhinosaurus",
+      "text": "Pachyrhinosaurus is a Ceratopsid dinosaur that lived during the Late Cretaceous period (73-69 million years ago). Diet: Herbivore. Found in: USA, Canada. Length: 8.0 meters. Taxonomy: Ornithischia > Ceratopsidae. Named by Charles M. Sternberg in 1950. Unusual ceratopsid with a large bony boss (bump) instead of a nose horn, plus elaborate frill ornamentation.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
+    },
+    {
+      "id": 28,
+      "name": "Carcharodontosaurus",
+      "text": "Carcharodontosaurus is a Large theropod dinosaur that lived during the Cretaceous period (99-93 million years ago). Diet: Carnivore. Found in: Egypt, Morocco, Niger. Length: 13.0 meters. Taxonomy: Theropoda > Carcharodontosauridae. Named by Ernst Stromer in 1931. North African giant predator with shark-like serrated teeth, rivaling T. rex in size.",
+      "diet": "Carnivore",
+      "period": "Cretaceous",
+      "lived_in": "Egypt, Morocco, Niger"
+    },
+    {
+      "id": 29,
+      "name": "Eoraptor",
+      "text": "Eoraptor is a Basal dinosaur dinosaur that lived during the Late Triassic period (231-228 million years ago). Diet: Omnivore. Found in: Argentina. Length: 1.0 meters. Taxonomy: Dinosauria > Eodromaeus. Named by Paul Sereno in 1993. One of the earliest dinosaurs known, small and lightly built, giving insight into dinosaur origins.",
+      "diet": "Omnivore",
+      "period": "Late Triassic",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 30,
+      "name": "Herrerasaurus",
+      "text": "Herrerasaurus is a Basal theropod dinosaur that lived during the Late Triassic period (231-228 million years ago). Diet: Carnivore. Found in: Argentina. Length: 6.0 meters. Taxonomy: Theropoda > Herrerasauridae. Named by Osvaldo Reig in 1963. Early predatory dinosaur from the Triassic. One of the first large dinosaurs and one of the first carnivores.",
+      "diet": "Carnivore",
+      "period": "Late Triassic",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 31,
+      "name": "Mamenchisaurus",
+      "text": "Mamenchisaurus is a Sauropod dinosaur that lived during the Late Jurassic period (160-145 million years ago). Diet: Herbivore. Found in: China. Length: 26.0 meters. Taxonomy: Sauropoda > Mamenchisauridae. Named by Young Chung-Chien in 1954. Chinese sauropod with one of the longest necks relative to body size of any dinosaur.",
+      "diet": "Herbivore",
+      "period": "Late Jurassic",
+      "lived_in": "China"
+    },
+    {
+      "id": 32,
+      "name": "Suchomimus",
+      "text": "Suchomimus is a Spinosaurid theropod dinosaur that lived during the Early Cretaceous period (125-112 million years ago). Diet: Piscivore. Found in: Niger. Length: 11.0 meters. Taxonomy: Theropoda > Spinosauridae. Named by Paul Sereno in 1998. Crocodile-mimic with a long narrow snout full of conical teeth, adapted for catching fish in rivers.",
+      "diet": "Piscivore",
+      "period": "Early Cretaceous",
+      "lived_in": "Niger"
+    },
+    {
+      "id": 33,
+      "name": "Utahraptor",
+      "text": "Utahraptor is a Dromaeosaurid theropod dinosaur that lived during the Early Cretaceous period (126-125 million years ago). Diet: Carnivore. Found in: USA. Length: 6.0 meters. Taxonomy: Theropoda > Dromaeosauridae. Named by James Kirkland, Robert Gaston & Donald Burge in 1993. The largest known dromaeosaurid, with a 24-cm sickle claw - the real-life giant Velociraptor.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 34,
+      "name": "Stygimoloch",
+      "text": "Stygimoloch is a Pachycephalosaurid dinosaur that lived during the Late Cretaceous period (68-66 million years ago). Diet: Herbivore. Found in: USA. Length: 3.0 meters. Taxonomy: Ornithischia > Pachycephalosauridae. Named by Peter Galton & Hans-Dieter Sues in 1983. Dome-headed dinosaur with elaborate horns and spikes, now thought by some to be a juvenile Pachycephalosaurus.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 35,
+      "name": "Megalosaurus",
+      "text": "Megalosaurus is a Megalosaurid theropod dinosaur that lived during the Middle Jurassic period (167-164 million years ago). Diet: Carnivore. Found in: UK, France. Length: 6.0 meters. Taxonomy: Theropoda > Megalosauridae. Named by William Buckland in 1824. The first dinosaur to receive a scientific name. A large predator from Jurassic England.",
+      "diet": "Carnivore",
+      "period": "Middle Jurassic",
+      "lived_in": "UK, France"
+    },
+    {
+      "id": 36,
+      "name": "Hypsilophodon",
+      "text": "Hypsilophodon is a Hypsilophodontid dinosaur that lived during the Early Cretaceous period (130-125 million years ago). Diet: Herbivore. Found in: UK, Spain. Length: 1.8 meters. Taxonomy: Ornithischia > Hypsilophodontidae. Named by Thomas Henry Huxley in 1869. Small, agile bipedal herbivore - once thought to live in trees, now known to be a fast ground-runner.",
+      "diet": "Herbivore",
+      "period": "Early Cretaceous",
+      "lived_in": "UK, Spain"
+    },
+    {
+      "id": 37,
+      "name": "Corythosaurus",
+      "text": "Corythosaurus is a Hadrosaur dinosaur that lived during the Late Cretaceous period (77-75 million years ago). Diet: Herbivore. Found in: USA, Canada. Length: 9.0 meters. Taxonomy: Ornithischia > Hadrosauridae. Named by Barnum Brown in 1914. Helmet-crested duck-billed dinosaur. The hollow crest amplified sounds for communication within the herd.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
+    },
+    {
+      "id": 38,
+      "name": "Edmontosaurus",
+      "text": "Edmontosaurus is a Hadrosaur dinosaur that lived during the Late Cretaceous period (73-66 million years ago). Diet: Herbivore. Found in: USA, Canada. Length: 13.0 meters. Taxonomy: Ornithischia > Hadrosauridae. Named by Lawrence Lambe in 1917. One of the largest hadrosaurs, living alongside T. rex. Skin impressions show it had a pebbly texture.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
+    },
+    {
+      "id": 39,
+      "name": "Troodon",
+      "text": "Troodon is a Troodontid theropod dinosaur that lived during the Late Cretaceous period (77-66 million years ago). Diet: Omnivore. Found in: USA, Canada. Length: 2.4 meters. Taxonomy: Theropoda > Troodontidae. Named by Joseph Leidy in 1856. Highly intelligent theropod with large eyes adapted for night hunting and a relatively large brain.",
+      "diet": "Omnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
+    },
+    {
+      "id": 40,
+      "name": "Microraptor",
+      "text": "Microraptor is a Dromaeosaurid theropod dinosaur that lived during the Early Cretaceous period (125-120 million years ago). Diet: Carnivore. Found in: China. Length: 0.8 meters. Taxonomy: Theropoda > Dromaeosauridae. Named by Xu Xing in 2000. Remarkable four-winged dinosaur capable of gliding between trees, providing key evidence for bird evolution.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 41,
+      "name": "Sinoceratops",
+      "text": "Sinoceratops is a Ceratopsid dinosaur that lived during the Late Cretaceous period (73-66 million years ago). Diet: Herbivore. Found in: China. Length: 6.0 meters. Taxonomy: Ornithischia > Ceratopsidae. Named by Xu Xing in 2010. The only large ceratopsid found in Asia, with a single nasal horn and elaborate frill with small spikes.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 42,
+      "name": "Baryonyx",
+      "text": "Baryonyx is a Spinosaurid theropod dinosaur that lived during the Early Cretaceous period (130-125 million years ago). Diet: Piscivore. Found in: UK, Spain, Portugal. Length: 10.0 meters. Taxonomy: Theropoda > Spinosauridae. Named by Alan Charig & Angela Milner in 1986. Discovered in England with fish scales in its stomach, proving it caught fish with its crocodile-like jaws.",
+      "diet": "Piscivore",
+      "period": "Early Cretaceous",
+      "lived_in": "UK, Spain, Portugal"
+    },
+    {
+      "id": 43,
+      "name": "Irritator",
+      "text": "Irritator is a Spinosaurid theropod dinosaur that lived during the Early Cretaceous period (110-100 million years ago). Diet: Piscivore. Found in: Brazil. Length: 8.0 meters. Taxonomy: Theropoda > Spinosauridae. Named by David Martill in 1996. Brazilian spinosaurid named because fossil dealers had altered the skull, irritating paleontologists.",
+      "diet": "Piscivore",
+      "period": "Early Cretaceous",
+      "lived_in": "Brazil"
+    },
+    {
+      "id": 44,
+      "name": "Yangchuanosaurus",
+      "text": "Yangchuanosaurus is a Metatetanuran theropod dinosaur that lived during the Late Jurassic period (163-153 million years ago). Diet: Carnivore. Found in: China. Length: 10.8 meters. Taxonomy: Theropoda > Metatetanurae. Named by Dong, Chang, Li & Zhou in 1978. The largest predator in Jurassic China, with a large head and short arms.",
+      "diet": "Carnivore",
+      "period": "Late Jurassic",
+      "lived_in": "China"
+    },
+    {
+      "id": 45,
+      "name": "Amargasaurus",
+      "text": "Amargasaurus is a Dicraeosaurid sauropod dinosaur that lived during the Early Cretaceous period (130-120 million years ago). Diet: Herbivore. Found in: Argentina. Length: 10.0 meters. Taxonomy: Sauropoda > Dicraeosauridae. Named by José Bonaparte & Jorge Calvo in 1991. Unusual sauropod with two rows of tall spines on its neck, possibly supporting a sail or hump.",
+      "diet": "Herbivore",
+      "period": "Early Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 46,
+      "name": "Nigersaurus",
+      "text": "Nigersaurus is a Rebbachisaurid sauropod dinosaur that lived during the Cretaceous period (119-99 million years ago). Diet: Herbivore. Found in: Niger. Length: 9.0 meters. Taxonomy: Sauropoda > Rebbachisauridae. Named by Paul Sereno in 1999. Bizarre sauropod with over 500 teeth arranged in a wide muzzle like a vacuum cleaner for low-ground grazing.",
+      "diet": "Herbivore",
+      "period": "Cretaceous",
+      "lived_in": "Niger"
+    },
+    {
+      "id": 47,
+      "name": "Concavenator",
+      "text": "Concavenator is a Carcharodontosaurid theropod dinosaur that lived during the Early Cretaceous period (130-125 million years ago). Diet: Carnivore. Found in: Spain. Length: 6.0 meters. Taxonomy: Theropoda > Carcharodontosauridae. Named by Francisco Ortega, Fernando Escaso & José L. Sanz in 2010. Spanish predator with a distinctive hump on its back and possible quill knobs on its forearm.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "Spain"
+    },
+    {
+      "id": 48,
+      "name": "Scipionyx",
+      "text": "Scipionyx is a Compsognathid theropod dinosaur that lived during the Early Cretaceous period (113 million years ago). Diet: Carnivore. Found in: Italy. Length: 0.5 meters. Taxonomy: Theropoda > Compsognathidae. Named by Giovanni Leonardi & Giorgio Teruzzi in 1998. Italian baby dinosaur fossil with preserved internal organs, including intestines and a liver.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "Italy"
+    },
+    {
+      "id": 49,
+      "name": "Magyarosaurus",
+      "text": "Magyarosaurus is a Titanosaur sauropod dinosaur that lived during the Late Cretaceous period (70-66 million years ago). Diet: Herbivore. Found in: Romania. Length: 6.0 meters. Taxonomy: Sauropoda > Titanosauria. Named by Friedrich von Huene in 1932. Dwarf sauropod from ancient island Europe, illustrating how island conditions drive size reduction in large animals.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Romania"
+    },
+    {
+      "id": 50,
+      "name": "Psittacosaurus",
+      "text": "Psittacosaurus is a Ceratopsian dinosaur that lived during the Early Cretaceous period (126-101 million years ago). Diet: Herbivore. Found in: China, Mongolia, Russia. Length: 2.0 meters. Taxonomy: Ornithischia > Psittacosauridae. Named by Henry Fairfield Osborn in 1923. Parrot-faced ceratopsian, one of the most common Cretaceous dinosaurs. Had bristle-like quills on its tail.",
+      "diet": "Herbivore",
+      "period": "Early Cretaceous",
+      "lived_in": "China, Mongolia, Russia"
+    },
+    {
+      "id": 51,
+      "name": "Nanuqsaurus",
+      "text": "Nanuqsaurus is a Tyrannosaurid theropod dinosaur that lived during the Late Cretaceous period (69-66 million years ago). Diet: Carnivore. Found in: USA (Alaska). Length: 6.0 meters. Taxonomy: Theropoda > Tyrannosauridae. Named by Anthony Fiorillo & Ronald Tykoski in 2014. Polar tyrannosaurid that lived within the Arctic Circle, smaller than T. rex due to resource limitations.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA (Alaska)"
+    },
+    {
+      "id": 52,
+      "name": "Zhuchengtyrannus",
+      "text": "Zhuchengtyrannus is a Tyrannosaurid theropod dinosaur that lived during the Late Cretaceous period (73-66 million years ago). Diet: Carnivore. Found in: China. Length: 11.0 meters. Taxonomy: Theropoda > Tyrannosauridae. Named by David Hone in 2011. Massive Chinese tyrannosaurid, one of the largest members of the family alongside T. rex.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 53,
+      "name": "Qianzhousaurus",
+      "text": "Qianzhousaurus is a Tyrannosaurid theropod dinosaur that lived during the Late Cretaceous period (73-66 million years ago). Diet: Carnivore. Found in: China. Length: 9.0 meters. Taxonomy: Theropoda > Tyrannosauridae. Named by Lü Junchang in 2014. Long-snouted Chinese tyrannosaurid, nicknamed Pinocchio Rex for its unusually elongated snout.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 54,
+      "name": "Zuul",
+      "text": "Zuul is a Ankylosaurid dinosaur that lived during the Late Cretaceous period (76-75 million years ago). Diet: Herbivore. Found in: USA, Canada. Length: 6.0 meters. Taxonomy: Ornithischia > Ankylosauridae. Named by Victoria Arbour & David Evans in 2017. Named after the Ghostbusters monster Zuul. The most complete ankylosaurid skeleton ever found in North America.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
+    },
+    {
+      "id": 55,
+      "name": "Dreadnoughtus",
+      "text": "Dreadnoughtus is a Titanosaur sauropod dinosaur that lived during the Late Cretaceous period (77-66 million years ago). Diet: Herbivore. Found in: Argentina. Length: 26.0 meters. Taxonomy: Sauropoda > Titanosauria. Named by Kenneth Lacovara in 2014. One of the most complete giant titanosaur specimens, estimated at 65 tonnes. Named after the dreadnought battleships.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 56,
+      "name": "Patagotitan",
+      "text": "Patagotitan is a Titanosaur sauropod dinosaur that lived during the Early Cretaceous period (101-98 million years ago). Diet: Herbivore. Found in: Argentina. Length: 37.0 meters. Taxonomy: Sauropoda > Titanosauria. Named by José Luis Carballido in 2017. Possibly the largest animal to ever walk the Earth, estimated at 69 tonnes. Found in Patagonia, Argentina.",
+      "diet": "Herbivore",
+      "period": "Early Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 57,
+      "name": "Meraxes",
+      "text": "Meraxes is a Carcharodontosaurid theropod dinosaur that lived during the Late Cretaceous period (96-92 million years ago). Diet: Carnivore. Found in: Argentina. Length: 11.0 meters. Taxonomy: Theropoda > Carcharodontosauridae. Named by Juan Canale in 2022. Recently described giant predator from Argentina, showing that large arms evolved independently in large theropods.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 58,
+      "name": "Lythronax",
+      "text": "Lythronax is a Tyrannosaurid theropod dinosaur that lived during the Late Cretaceous period (80 million years ago). Diet: Carnivore. Found in: USA. Length: 8.0 meters. Taxonomy: Theropoda > Tyrannosauridae. Named by Mark Loewen in 2013. Goreback tyrannosaurid from Utah - one of the oldest members of the tyrannosaurid family found in North America.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 59,
+      "name": "Yutyrannus",
+      "text": "Yutyrannus is a Proceratosaurid theropod dinosaur that lived during the Early Cretaceous period (125 million years ago). Diet: Carnivore. Found in: China. Length: 9.0 meters. Taxonomy: Theropoda > Proceratosauridae. Named by Xu Xing in 2012. The largest feathered dinosaur known, with long filamentous feathers covering its body in cold climate.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 60,
+      "name": "Dilophosaurus",
+      "text": "Dilophosaurus is a Dilophosaurid theropod dinosaur that lived during the Early Jurassic period (193 million years ago). Diet: Carnivore. Found in: USA, China. Length: 6.0 meters. Taxonomy: Theropoda > Dilophosauridae. Named by Samuel Paul Welles in 1954. Early Jurassic predator with two bony crests on its skull. Could not spit venom - that was a movie invention.",
+      "diet": "Carnivore",
+      "period": "Early Jurassic",
+      "lived_in": "USA, China"
+    },
+    {
+      "id": 61,
+      "name": "Coelophysis",
+      "text": "Coelophysis is a Coelophysid theropod dinosaur that lived during the Late Triassic period (228-201 million years ago). Diet: Carnivore. Found in: USA. Length: 3.0 meters. Taxonomy: Theropoda > Coelophysidae. Named by Edward Drinker Cope in 1889. Slender early dinosaur found in huge numbers at Ghost Ranch, New Mexico. New Mexico's state fossil.",
+      "diet": "Carnivore",
+      "period": "Late Triassic",
+      "lived_in": "USA"
+    },
+    {
+      "id": 62,
+      "name": "Segnosaurus",
+      "text": "Segnosaurus is a Therizinosaur theropod dinosaur that lived during the Late Cretaceous period (102-86 million years ago). Diet: Herbivore. Found in: Mongolia. Length: 6.0 meters. Taxonomy: Theropoda > Therizinosauridae. Named by Altangerel Perle in 1979. Unusual theropod with a pot-belly and leaf-shaped teeth adapted for eating plants instead of meat.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia"
+    },
+    {
+      "id": 63,
+      "name": "Edmontonia",
+      "text": "Edmontonia is a Nodosaurid dinosaur that lived during the Late Cretaceous period (76-66 million years ago). Diet: Herbivore. Found in: USA, Canada. Length: 6.6 meters. Taxonomy: Ornithischia > Nodosauridae. Named by Charles W. Gilmore in 1930. Heavily armored nodosaurid with large shoulder spikes but no tail club, unlike its ankylosaurid cousins.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
+    },
+    {
+      "id": 64,
+      "name": "Torosaurus",
+      "text": "Torosaurus is a Ceratopsid dinosaur that lived during the Late Cretaceous period (68-66 million years ago). Diet: Herbivore. Found in: USA, Canada. Length: 9.0 meters. Taxonomy: Ornithischia > Ceratopsidae. Named by Othniel Charles Marsh in 1891. Large ceratopsid with the biggest skull of any land animal, up to 3 meters long including the enormous frill.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA, Canada"
+    },
+    {
+      "id": 65,
+      "name": "Tsintaosaurus",
+      "text": "Tsintaosaurus is a Hadrosaur dinosaur that lived during the Late Cretaceous period (84-71 million years ago). Diet: Herbivore. Found in: China. Length: 10.0 meters. Taxonomy: Ornithischia > Hadrosauridae. Named by Yang Zhongjian in 1958. Chinese hadrosaur with a distinctive unicorn-like crest on top of its head, unique among duck-billed dinosaurs.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 66,
+      "name": "Prenocephale",
+      "text": "Prenocephale is a Pachycephalosaurid dinosaur that lived during the Late Cretaceous period (70-68 million years ago). Diet: Herbivore. Found in: Mongolia. Length: 2.4 meters. Taxonomy: Ornithischia > Pachycephalosauridae. Named by Teresa Maryańska & Halszka Osmólska in 1974. Mongolian bone-head with a dome surrounded by nodes and bumps, used in ritualistic head-butting behavior.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia"
+    },
+    {
+      "id": 67,
+      "name": "Shantungosaurus",
+      "text": "Shantungosaurus is a Hadrosaur dinosaur that lived during the Late Cretaceous period (73-66 million years ago). Diet: Herbivore. Found in: China. Length: 15.0 meters. Taxonomy: Ornithischia > Hadrosauridae. Named by Hu Chengzhi in 1973. The largest known hadrosaur and possibly the largest bipedal dinosaur ever, found in Shandong Province, China.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 68,
+      "name": "Rugops",
+      "text": "Rugops is a Abelisaurid theropod dinosaur that lived during the Cretaceous period (95 million years ago). Diet: Carnivore. Found in: Niger. Length: 6.0 meters. Taxonomy: Theropoda > Abelisauridae. Named by Paul Sereno in 2004. Wrinkle-face African predator with a rough, pitted skull surface, possibly supporting display structures.",
+      "diet": "Carnivore",
+      "period": "Cretaceous",
+      "lived_in": "Niger"
+    },
+    {
+      "id": 69,
+      "name": "Rajasaurus",
+      "text": "Rajasaurus is a Abelisaurid theropod dinosaur that lived during the Late Cretaceous period (70-66 million years ago). Diet: Carnivore. Found in: India. Length: 6.6 meters. Taxonomy: Theropoda > Abelisauridae. Named by Paul Sereno & colleagues in 2003. Indian prince lizard from the Narmada valley, one of the few dinosaurs described from the Indian subcontinent.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "India"
+    },
+    {
+      "id": 70,
+      "name": "Xenotarsosaurus",
+      "text": "Xenotarsosaurus is a Abelisaurid theropod dinosaur that lived during the Late Cretaceous period (90-85 million years ago). Diet: Carnivore. Found in: Argentina. Length: 6.0 meters. Taxonomy: Theropoda > Abelisauridae. Named by Martínez, Giménez, Rodríguez & Bochatey in 1986. South American predator known for its unusual fused ankle bones, giving it a unique posture.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 71,
+      "name": "Alectrosaurus",
+      "text": "Alectrosaurus is a Tyrannosaurid theropod dinosaur that lived during the Late Cretaceous period (80-74 million years ago). Diet: Carnivore. Found in: Mongolia, China. Length: 5.0 meters. Taxonomy: Theropoda > Tyrannosauridae. Named by Charles Whitney Gilmore in 1933. Primitive tyrannosaurid from Asia with long arms compared to later relatives.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia, China"
+    },
+    {
+      "id": 72,
+      "name": "Bambiraptor",
+      "text": "Bambiraptor is a Dromaeosaurid theropod dinosaur that lived during the Late Cretaceous period (75 million years ago). Diet: Carnivore. Found in: USA. Length: 1.0 meters. Taxonomy: Theropoda > Dromaeosauridae. Named by Burnham et al. in 2000. Small juvenile dromaeosaurid found in Montana, providing clues about the origin of bird flight.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 73,
+      "name": "Caudipteryx",
+      "text": "Caudipteryx is a Oviraptorid theropod dinosaur that lived during the Early Cretaceous period (125 million years ago). Diet: Omnivore. Found in: China. Length: 1.0 meters. Taxonomy: Theropoda > Oviraptoridae. Named by Ji et al. in 1998. Feathered dinosaur with fan of tail feathers and wing feathers too short for flight.",
+      "diet": "Omnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 74,
+      "name": "Datousaurus",
+      "text": "Datousaurus is a Sauropod dinosaur that lived during the Middle Jurassic period (175-163 million years ago). Diet: Herbivore. Found in: China. Length: 14.0 meters. Taxonomy: Sauropoda > Datousauridae. Named by Dong & Tang in 1984. Early Chinese sauropod with a robust skull and spatulate teeth.",
+      "diet": "Herbivore",
+      "period": "Middle Jurassic",
+      "lived_in": "China"
+    },
+    {
+      "id": 75,
+      "name": "Einiosaurus",
+      "text": "Einiosaurus is a Ceratopsid dinosaur that lived during the Late Cretaceous period (74 million years ago). Diet: Herbivore. Found in: USA. Length: 6.0 meters. Taxonomy: Ornithischia > Ceratopsidae. Named by Scott Sampson in 1995. Buffalo ceratopsid with a forward-curving nasal horn and two long backward-pointing frill spikes.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "USA"
+    },
+    {
+      "id": 76,
+      "name": "Fukuiraptor",
+      "text": "Fukuiraptor is a Megaraptoran theropod dinosaur that lived during the Early Cretaceous period (127-114 million years ago). Diet: Carnivore. Found in: Japan. Length: 4.2 meters. Taxonomy: Theropoda > Megaraptoridae. Named by Azuma & Currie in 2000. Japan's first large carnivorous dinosaur, showing Asia had diverse predator fauna during the Cretaceous.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "Japan"
+    },
+    {
+      "id": 77,
+      "name": "Gondwanatitan",
+      "text": "Gondwanatitan is a Titanosaur sauropod dinosaur that lived during the Late Cretaceous period (70-65 million years ago). Diet: Herbivore. Found in: Brazil. Length: 7.0 meters. Taxonomy: Sauropoda > Titanosauria. Named by Kellner & Azevedo in 1999. Brazilian titanosaur showing the diversity of sauropods on the Gondwana supercontinent.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Brazil"
+    },
+    {
+      "id": 78,
+      "name": "Huayangosaurus",
+      "text": "Huayangosaurus is a Stegosaurid dinosaur that lived during the Middle Jurassic period (165-161 million years ago). Diet: Herbivore. Found in: China. Length: 4.5 meters. Taxonomy: Ornithischia > Huayangosauridae. Named by Dong, Tang & Zhou in 1982. Primitive stegosaur from China with both plates and spikes, helping understand stegosaur evolution.",
+      "diet": "Herbivore",
+      "period": "Middle Jurassic",
+      "lived_in": "China"
+    },
+    {
+      "id": 79,
+      "name": "Incisivosaurus",
+      "text": "Incisivosaurus is a Oviraptorid theropod dinosaur that lived during the Early Cretaceous period (128 million years ago). Diet: Herbivore. Found in: China. Length: 0.9 meters. Taxonomy: Theropoda > Oviraptoridae. Named by Xu et al. in 2002. Remarkable oviraptorid with rodent-like front teeth, showing dietary diversity in this group.",
+      "diet": "Herbivore",
+      "period": "Early Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 80,
+      "name": "Janenschia",
+      "text": "Janenschia is a Titanosaur sauropod dinosaur that lived during the Late Jurassic period (155-150 million years ago). Diet: Herbivore. Found in: Tanzania. Length: 24.0 meters. Taxonomy: Sauropoda > Titanosauria. Named by Wild in 1991. African titanosaur from the Tendaguru Formation, contemporary with Brachiosaurus.",
+      "diet": "Herbivore",
+      "period": "Late Jurassic",
+      "lived_in": "Tanzania"
+    },
+    {
+      "id": 81,
+      "name": "Khaan",
+      "text": "Khaan is a Oviraptorid theropod dinosaur that lived during the Late Cretaceous period (75-71 million years ago). Diet: Omnivore. Found in: Mongolia. Length: 1.8 meters. Taxonomy: Theropoda > Oviraptoridae. Named by Clark, Norell & Barsbold in 2001. Mongolian oviraptorid named after a Mongolian word for lord or ruler.",
+      "diet": "Omnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia"
+    },
+    {
+      "id": 82,
+      "name": "Limusaurus",
+      "text": "Limusaurus is a Ceratosaurid theropod dinosaur that lived during the Late Jurassic period (161-155 million years ago). Diet: Herbivore. Found in: China. Length: 1.7 meters. Taxonomy: Theropoda > Ceratosauridae. Named by Xu et al. in 2009. Toothless Chinese dinosaur that changed diet from carnivore to herbivore as it grew up.",
+      "diet": "Herbivore",
+      "period": "Late Jurassic",
+      "lived_in": "China"
+    },
+    {
+      "id": 83,
+      "name": "Minmi",
+      "text": "Minmi is a Ankylosaurid dinosaur that lived during the Early Cretaceous period (119-113 million years ago). Diet: Herbivore. Found in: Australia. Length: 3.0 meters. Taxonomy: Ornithischia > Ankylosauria. Named by Ralph Molnar in 1980. Australia's most complete dinosaur, an armored ankylosaur with unusually small body armor segments.",
+      "diet": "Herbivore",
+      "period": "Early Cretaceous",
+      "lived_in": "Australia"
+    },
+    {
+      "id": 84,
+      "name": "Neovenator",
+      "text": "Neovenator is a Neovenatorid theropod dinosaur that lived during the Early Cretaceous period (130-125 million years ago). Diet: Carnivore. Found in: UK. Length: 7.5 meters. Taxonomy: Theropoda > Neovenatoridae. Named by Hutt et al. in 1996. Britain's best large theropod fossil, found on the Isle of Wight.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "UK"
+    },
+    {
+      "id": 85,
+      "name": "Othnielia",
+      "text": "Othnielia is a Hypsilophodontid dinosaur that lived during the Late Jurassic period (155-148 million years ago). Diet: Herbivore. Found in: USA. Length: 1.4 meters. Taxonomy: Ornithischia > Hypsilophodontidae. Named by Peter Galton in 1977. Small swift herbivore named in honor of paleontologist Othniel Charles Marsh.",
+      "diet": "Herbivore",
+      "period": "Late Jurassic",
+      "lived_in": "USA"
+    },
+    {
+      "id": 86,
+      "name": "Puertasaurus",
+      "text": "Puertasaurus is a Titanosaur sauropod dinosaur that lived during the Late Cretaceous period (69-65 million years ago). Diet: Herbivore. Found in: Argentina. Length: 30.0 meters. Taxonomy: Sauropoda > Titanosauria. Named by Novas et al. in 2005. Gigantic Patagonian titanosaur with the widest vertebrae of any known dinosaur.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 87,
+      "name": "Quilmesaurus",
+      "text": "Quilmesaurus is a Abelisaurid theropod dinosaur that lived during the Late Cretaceous period (72-66 million years ago). Diet: Carnivore. Found in: Argentina. Length: 6.0 meters. Taxonomy: Theropoda > Abelisauridae. Named by Coria in 2001. Argentine predator known only from leg bones, but clearly an abelisaurid from its bone structure.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 88,
+      "name": "Rhoetosaurus",
+      "text": "Rhoetosaurus is a Sauropod dinosaur that lived during the Middle Jurassic period (175-164 million years ago). Diet: Herbivore. Found in: Australia. Length: 15.0 meters. Taxonomy: Sauropoda > Rhoetosauridae. Named by Longman in 1926. Australia's oldest sauropod and one of the world's oldest complete sauropod specimens.",
+      "diet": "Herbivore",
+      "period": "Middle Jurassic",
+      "lived_in": "Australia"
+    },
+    {
+      "id": 89,
+      "name": "Sinornithosaurus",
+      "text": "Sinornithosaurus is a Dromaeosaurid theropod dinosaur that lived during the Early Cretaceous period (125-122 million years ago). Diet: Carnivore. Found in: China. Length: 1.0 meters. Taxonomy: Theropoda > Dromaeosauridae. Named by Xu et al. in 1999. Chinese feathered dromaeosaurid, one of the closest non-avian relatives of birds.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 90,
+      "name": "Tarchia",
+      "text": "Tarchia is a Ankylosaurid dinosaur that lived during the Late Cretaceous period (74-70 million years ago). Diet: Herbivore. Found in: Mongolia. Length: 8.0 meters. Taxonomy: Ornithischia > Ankylosauridae. Named by Maryańska in 1977. Largest known Asian ankylosaurid, with a massive tail club capable of shattering predator bones.",
+      "diet": "Herbivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Mongolia"
+    },
+    {
+      "id": 91,
+      "name": "Unenlagia",
+      "text": "Unenlagia is a Dromaeosaurid theropod dinosaur that lived during the Late Cretaceous period (90-88 million years ago). Diet: Carnivore. Found in: Argentina. Length: 2.3 meters. Taxonomy: Theropoda > Dromaeosauridae. Named by Novas & Puerta in 1997. Half-bird from Argentina - its shoulder anatomy shows dromaeosaurids could fold their arms like birds.",
+      "diet": "Carnivore",
+      "period": "Late Cretaceous",
+      "lived_in": "Argentina"
+    },
+    {
+      "id": 92,
+      "name": "Vulcanodon",
+      "text": "Vulcanodon is a Basal sauropod dinosaur that lived during the Early Jurassic period (200-180 million years ago). Diet: Herbivore. Found in: Zimbabwe. Length: 6.5 meters. Taxonomy: Sauropoda > Vulcanodontidae. Named by Raath in 1972. Very early African sauropod bridging the gap between prosauropods and true sauropods.",
+      "diet": "Herbivore",
+      "period": "Early Jurassic",
+      "lived_in": "Zimbabwe"
+    },
+    {
+      "id": 93,
+      "name": "Wuerhosaurus",
+      "text": "Wuerhosaurus is a Stegosaurid dinosaur that lived during the Early Cretaceous period (130-120 million years ago). Diet: Herbivore. Found in: China. Length: 7.0 meters. Taxonomy: Ornithischia > Stegosauridae. Named by Dong Zhiming in 1973. The last known stegosaur, surviving into the Cretaceous long after most stegosaurs had gone extinct.",
+      "diet": "Herbivore",
+      "period": "Early Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 94,
+      "name": "Xenoposeidon",
+      "text": "Xenoposeidon is a Sauropod dinosaur that lived during the Early Cretaceous period (140 million years ago). Diet: Herbivore. Found in: UK. Length: 15.0 meters. Taxonomy: Sauropoda > Xenoposeidonidae. Named by Taylor & Naish in 2007. Mysterious British sauropod known from a single unusual vertebra unlike any other sauropod.",
+      "diet": "Herbivore",
+      "period": "Early Cretaceous",
+      "lived_in": "UK"
+    },
+    {
+      "id": 95,
+      "name": "Yixianosaurus",
+      "text": "Yixianosaurus is a Dromaeosaurid theropod dinosaur that lived during the Early Cretaceous period (125 million years ago). Diet: Carnivore. Found in: China. Length: 1.0 meters. Taxonomy: Theropoda > Dromaeosauridae. Named by Xu & Wang in 2003. Long-armed Chinese dinosaur whose limb proportions suggest it was adapted for tree-climbing.",
+      "diet": "Carnivore",
+      "period": "Early Cretaceous",
+      "lived_in": "China"
+    },
+    {
+      "id": 96,
+      "name": "Zuolong",
+      "text": "Zuolong is a Coelurosaur theropod dinosaur that lived during the Late Jurassic period (161-155 million years ago). Diet: Carnivore. Found in: China. Length: 3.1 meters. Taxonomy: Theropoda > Coelurosauria. Named by Choiniere et al. in 2010. Chinese coelurosaur near the origin of the group that includes birds, tyrannosaurs, and dromaeosaurids.",
+      "diet": "Carnivore",
+      "period": "Late Jurassic",
+      "lived_in": "China"
     }
   ]
 }

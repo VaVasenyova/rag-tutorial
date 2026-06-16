@@ -1,9 +1,7 @@
-# RAG Tutorial
+# 🦕 DinoRAG — RAG на базе данных динозавров
 
-Учебный RAG на текстовых описаниях: TF-IDF + demo-ответ с источниками.  
+Учебный RAG на Dinosaur Genera Dataset: TF-IDF / Hybrid (BM25+TF-IDF) + demo-ответ с источниками.  
 Pipeline: данные → чанки → индекс → поиск → ответ.
-
-**Документы разработки:** [doc/tasklist.md](doc/tasklist.md) · **Данные:** [doc/DATA.md](doc/DATA.md) · **Домашнее задание:** [homework/README.md](homework/README.md) · **Слайды:** [Seminar_Big_data.pdf](Seminar_Big_data.pdf) · **Kaggle:** [Consumer Complaint Database](https://www.kaggle.com/datasets/datasnaek/consumer-complaint-database)
 
 ## Требования
 
@@ -13,8 +11,7 @@ Pipeline: данные → чанки → индекс → поиск → отв
 ## Быстрый старт
 
 ```bash
-# 1. Окружение
-uv venv
+# 1. Зависимости
 uv sync
 
 # 2. Сборка индекса (ingest + chunk + TF-IDF)
@@ -24,71 +21,68 @@ uv run python scripts/build_index.py
 uv run streamlit run app/main.py
 ```
 
-Откройте в браузере: http://localhost:8501
+Открыть: http://localhost:8501
 
 ## Demo-вопросы
 
-В sidebar приложения или в поле ввода:
-
 | Вопрос | Ожидание |
 |--------|----------|
-| **Ипотека - закрытие ипотечной сделки** | ответ, doc_id=2, score > 0.4 |
-| Какие переменные в датасете про безработицу? | отказ (нет таких данных) |
-| За какой период данные об инфляции? | отказ |
-| Как приготовить борщ? | отказ |
+| `What did T. rex eat?` | Tyrannosaurus, score > 0.15 |
+| `Dinosaurs that lived in Argentina` | Carnotaurus, Giganotosaurus |
+| `Armored dinosaur with tail club` | Ankylosaurus, score > 0.25 |
+| `How to cook pasta carbonara?` | ❌ отказ (нет данных) |
 
-Другие рабочие запросы: `студенческий кредит`, `Capital One`, `Wells Fargo закрытие счёта`.
-
-## Проверка из консоли
+## Тесты
 
 ```bash
-# Тесты
 uv run pytest tests/ -v
-
-# Поиск (итерация 5)
-uv run python scripts/check_retrieval.py
-
-# Demo-ответ (итерация 6)
-uv run python scripts/check_generator.py
+# 20 passed
 ```
 
-## Структура проекта
+## Структура
 
 ```
 rag-tutorial/
 ├── app/
-│   ├── config.py       # пути, top_k, размер чанка
-│   ├── chunker.py      # нарезка текста
-│   ├── retriever.py    # TF-IDF + cosine top-k
-│   ├── generator.py    # demo-ответ
-│   ├── prompts.py      # правила и отказы
-│   └── main.py         # Streamlit UI
+│   ├── config.py           # пути и параметры
+│   ├── chunker.py          # нарезка текста
+│   ├── retriever.py        # TF-IDF + cosine
+│   ├── bm25.py             # BM25 (улучшение 5)
+│   ├── hybrid_retriever.py # TF-IDF + BM25 через RRF (улучшение 5)
+│   ├── generator.py        # сборка ответа
+│   ├── prompts.py          # порог отказа
+│   └── main.py             # Streamlit UI (улучшение 3)
 ├── scripts/
 │   ├── ingest.py
-│   ├── build_index.py
-│   ├── check_retrieval.py
-│   └── check_generator.py
-├── data/
-│   ├── raw/datasets.json
-│   ├── processed/      # documents.jsonl, chunks.jsonl (генерируются)
-│   └── index/          # vectorizer.pkl, matrix.npz (генерируются)
+│   └── build_index.py
 ├── tests/
-└── doc/
+│   ├── test_chunking.py
+│   ├── test_retrieval.py
+│   ├── test_bm25.py        # новые тесты (улучшение 5)
+│   └── test_hybrid.py      # новые тесты (улучшение 5)
+├── data/
+│   └── raw/datasets.json   # 97 динозавров
+├── doc/
+├── homework/
+│   ├── IMPROVEMENTS.md
+│   └── SUBMISSION.md
+└── pyproject.toml
 ```
 
-## Пересборка индекса
+## Реализованные улучшения
 
-После изменения `data/raw/datasets.json`:
+### Улучшение 3 — Интерфейс Streamlit
+- Ползунок порога score в sidebar
+- История запросов (сохраняется в session)
+- Подсветка слов запроса в найденных фрагментах
 
-```bash
-uv run python scripts/build_index.py
-```
+### Улучшение 5 — Hybrid Search
+- `app/bm25.py` — Okapi BM25 без внешних библиотек
+- `app/hybrid_retriever.py` — RRF объединяет TF-IDF и BM25
+- Переключатель TF-IDF / Hybrid в sidebar UI
 
-## Ограничения MVP
+## Данные
 
-- Поиск по **словам** (TF-IDF), не по смыслу — синонимы могут не находиться.
-- Demo-режим: ответ из найденных чанков, без внешней LLM.
-- Индексируется только текст описаний, CSV не используется.
-
-## Контакты
-Подписывайтесь на канал: @Marat_notes
+**Dinosaur Genera Dataset**, 97 записей.  
+Kaggle: [canozensoy/dinosaur-genera-dataset](https://www.kaggle.com/datasets/canozensoy/dinosaur-genera-dataset)  
+Подробнее: [doc/DATA.md](doc/DATA.md)
